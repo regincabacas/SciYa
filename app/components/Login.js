@@ -41,7 +41,8 @@ export default class Login extends Component {
     return (
             <KeyboardAvoidingView behavior='padding' style={styles.wrapper}>
                 <View style={styles.container}>
-                    <Text style={styles.header}> - Login - </Text>
+                    <Text style={styles.header}> Welcome to SciYa! </Text>
+                    <Text style={styles.subheader}> Learning Science is Fun! </Text>
                     
                     <TextInput style={styles.textInput} placeholder='Username'
                     onChangeText={(username) => this.setState({username})}
@@ -82,9 +83,16 @@ container:{
     paddingLeft: 40,
     paddingRight: 40,
 },
+subheader: {
+    fontSize: 14,
+    marginBottom: 40,
+    color: '#fff',
+    fontWeight: 'bold',
+},
+
 header: {
     fontSize: 24,
-    marginBottom: 60,
+    //marginBottom: 20,
     color: '#fff',
     fontWeight: 'bold',
 },
