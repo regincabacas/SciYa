@@ -14,6 +14,7 @@ import {
 import {StackNavigator} from 'react-navigation';
 import Login from './app/components/Login';
 import Profile from './app/components/Profile';
+//import Profile2 from './app/components/Profile2';
 
 const Application = StackNavigator({
   Home: {screen: Login},

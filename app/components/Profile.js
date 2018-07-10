@@ -11,11 +11,24 @@ import {
   View
 } from 'react-native';
 
+import Header from './Header';
+import Bar from './Bar';
+
 export default class Profile extends Component{
   render() {
     return (
-      <Text>Profile Page</Text>
+        <View style={styles.container}>
+        <Header />
+        <Bar />
+      </View>
     );
   }
 }
 
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#000',
+  
+    },
+  });
