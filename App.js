@@ -25,7 +25,11 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
+<<<<<<< HEAD
           Welcome to React Native!
+=======
+          Hello World!
+>>>>>>> 8e762f84b1edeb849090981351b42037b4d9ebe0
         </Text>
       </View>
     );
