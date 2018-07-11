@@ -11,14 +11,23 @@ It also envisions to have a notification/reminder component for multiple users
 (learner, teacher, parents) regarding the learner's progress. More or less this will become an LMS </p>
 
 <strong> Possible Project Features </strong>
-Students
+<strong>Learners </strong>
 <ul>
 <li>Learner Subject Registration using a Class Code</li>
 </ul>
 
-Teachers
+<strong>Teachers</strong>
 <ul>
 <li>DepEd DLL-based Lesson Content Presentation</li>
 <li>Drag and Drop component in Lesson Creation</li>
 </ul>
+
+<p>To get started:<p>
+
+<p>yarn install</p>
+
+<p>To run (Android):
+<br/>
+react-native run-android
+</p>
 
