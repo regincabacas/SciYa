@@ -11,6 +11,7 @@ It also envisions to have a notification/reminder component for multiple users
 (learner, teacher, parents) regarding the learner's progress. More or less this will become an LMS </p>
 
 <strong> Possible Project Features </strong>
+<br/>
 <strong>Learners </strong>
 <ul>
 <li>Learner Subject Registration using a Class Code</li>
