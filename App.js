@@ -16,6 +16,9 @@ import Login from './app/components/Login';
 import Profile from './app/components/Profile';
 //import Profile2 from './app/components/Profile2';
 
+import { YellowBox } from 'react-native';
+YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated', 'Module RCTImageLoader']);
+
 const Application = StackNavigator({
   Home: {screen: Login},
   Profile: {screen: Profile},

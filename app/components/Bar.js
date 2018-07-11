@@ -5,6 +5,8 @@ import {
   Text
 } from 'react-native';
 
+import Login from './Login';
+
 export default class Bar extends Component {
   render() {
     return(
@@ -15,7 +17,8 @@ export default class Bar extends Component {
           <Text style={styles.barBottom}>Subjects</Text>
         </View>
 
-        <View style={[styles.barItem, styles.barseparator]}>
+        <View style={[styles.barItem, styles.barseparator]}
+        onPress={this.subjects}>
           <Text style={styles.barTop}>80%</Text>
           <Text style={styles.barBottom}>Completed</Text>
         </View>
@@ -23,6 +26,12 @@ export default class Bar extends Component {
       </View>
     );
   }
+
+  subjects = () => {
+    //Login Function or Firebase login
+    this.props.navigation.navigate('Login');
+
+}
 }
 
 const styles = StyleSheet.create({
@@ -33,7 +42,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row'
   },
   barseparator: {
-    borderRightWidth: 4
+    borderRightWidth: 1,
+    borderLeftWidth: 2,
   },
   barItem: {
     flex: 1,
