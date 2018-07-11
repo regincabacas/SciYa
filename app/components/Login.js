@@ -14,7 +14,7 @@ import {
   TouchableOpacity,
   AsyncStorage,
 } from 'react-native';
-import {StackNavigator} from 'react-navigation';
+import {createStackNavigator} from 'react-navigation';
 
 
 export default class Login extends Component {
