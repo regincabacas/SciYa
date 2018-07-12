@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "android-linux": "react-native bundle --platform android --dev false --entry-file App.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android"
   },
   "dependencies": {
     "global": "^4.3.2",
@@ -13,7 +14,8 @@
     "react-native": "0.55.4",
     "react-native-elements": "^0.19.1",
     "react-native-tab-view": "^1.0.2",
-    "react-navigation": "^2.6.2"
+    "react-navigation": "^2.6.2",
+    "watchman": "^1.0.0"
   },
   "devDependencies": {
     "babel-jest": "23.2.0",
