@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
   StyleSheet,
   View,
-  Text
+  Text,
+  TouchableOpacity
 } from 'react-native';
 
 import Login from './Login';
@@ -12,22 +13,21 @@ export default class Bar extends Component {
     return(
       <View style={styles.bar}>
 
-        <View style={[styles.barItem, styles.barseparator]}>
+        <TouchableOpacity style={[styles.barItem, styles.barseparator1]}>
           <Text style={styles.barTop}>4</Text>
           <Text style={styles.barBottom}>Subjects</Text>
-        </View>
+        </TouchableOpacity>
 
-        <View style={[styles.barItem, styles.barseparator]}
-        onPress={this.subjects}>
+         <TouchableOpacity style={[styles.barItem, styles.barseparator2]}>
           <Text style={styles.barTop}>80%</Text>
           <Text style={styles.barBottom}>Completed</Text>
-        </View>
-
+          </TouchableOpacity>
       </View>
+
     );
   }
 
-  subjects = () => {
+  gotoSubjects = () => {
     //Login Function or Firebase login
     this.props.navigation.navigate('Login');
 
@@ -41,9 +41,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#ec2e4a',
     flexDirection: 'row'
   },
-  barseparator: {
+  barseparator1: {
     borderRightWidth: 1,
-    borderLeftWidth: 2,
+  },
+  barseparator2: {
+    borderLeftWidth: 1,
   },
   barItem: {
     flex: 1,

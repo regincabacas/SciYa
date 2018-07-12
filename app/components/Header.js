@@ -68,7 +68,8 @@ const styles = StyleSheet.create({
       fontSize: 16,
       color: '#0394c0',
       fontWeight: '600',
-      fontStyle: 'italic'
+      fontStyle: 'italic',
+      marginBottom: 20,
     }
   
   });

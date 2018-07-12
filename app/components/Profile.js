@@ -13,6 +13,7 @@ import {
 
 import Header from './Header';
 import Bar from './Bar';
+import Description from './Description';
 
 export default class Profile extends Component{
   render() {
@@ -20,6 +21,7 @@ export default class Profile extends Component{
         <View style={styles.container}>
         <Header />
         <Bar />
+        <Description />
       </View>
     );
   }
