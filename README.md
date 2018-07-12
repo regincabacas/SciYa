@@ -22,3 +22,14 @@ Teachers
 <li>Drag and Drop component in Lesson Creation</li>
 </ul>
 
+<p>To get started:<p>
+
+<p>yarn install</p>
+
+<p>To run (Android):
+  There have been some known issues like "unable to load script from assets index.android.bundle"
+  Found Solution on: https://stackoverflow.com/questions/44446523/unable-to-load-script-from-assets-index-android-bundle-on-windows 
+<br/>
+npm run android-linux
+</p>
+
