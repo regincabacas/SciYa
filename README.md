@@ -12,9 +12,16 @@ The goal is to present the lessons in a visually appealing and comprehensive for
 Future Features:
 <br/>
 It also envisions to have a notification/reminder component for multiple users
-(learner, teacher, parents) regarding the learner's progress. More or less this will become an LMS </p>
-
-
+(learner, teacher, parents) regarding the learner's progress. More or less this will become an LMS.
+<br/>
+Students
+<br/>
+Learner Subject Registration using a Class Code
+Teachers
+<br/>
+DepEd DLL-based Lesson Content Presentation
+Drag and Drop component in Lesson Creation
+ </p>
 <p>To get started:<p>
 
 <p>yarn install</p>
