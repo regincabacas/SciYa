@@ -7,16 +7,50 @@
     "test": "jest"
   },
   "dependencies": {
+    "@types/react-navigation": "^2.0.11",
+    "async": "^2.6.1",
+    "axios": "^0.18.0",
     "babel-preset-react-native": "^2.1.0",
+    "lodash": "^4.17.10",
     "react": "16.3.1",
-    "react-native": "^0.55.4"
+    "react-native": "^0.55.4",
+    "react-native-firebase": "^4.3.7",
+    "react-navigation": "^2.6.2",
+    "react-vector-icons": "^0.0.1",
+    "ts-jest": "^23.0.1",
+    "typescript": "^2.9.2",
+    "uuid": "^3.3.2"
   },
   "devDependencies": {
+    "@types/jest": "^23.3.0",
+    "@types/react": "^16.4.6",
+    "@types/react-native": "^0.56.2",
+    "@types/react-test-renderer": "^16.0.1",
     "babel-jest": "23.4.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
     "jest": "23.4.1",
+    "react-native-typescript-transformer": "^1.2.10",
     "react-test-renderer": "16.3.1"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/"
+    ],
+    "cacheDirectory": ".jest/cache"
   }
 }
