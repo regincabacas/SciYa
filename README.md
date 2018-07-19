@@ -1,7 +1,7 @@
 <h2>SciYa!</h2>
 <h3>Learning Elementary Science With Fun!</h3>
 
-<em>An Offline Mobile Application to Aid Teachers in Teaching DepEd Identified Low-Mastery Lessons in Grade 6 Science</em> 
+<em>An Offline Mobile Application to Aid Teachers in Teaching DepEd Identified Least-Mastered Skills in Grade 6 Science</em> 
 
 <strong>Project Description:</strong>
 
